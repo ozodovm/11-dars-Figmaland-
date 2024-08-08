@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: cursive;
+    text-decoration: none;
+}
+body{
+    background-color: #181818;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.site-header{
+    padding: 30px 0;
+    margin-bottom: 35px;
+}
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__logo-link{
+    margin-right: 116.5px;
+}
+.header__list{
+    display: flex;
+    align-items: center;
+    gap: 31px;
+}
+.header__item-link{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+.header__login-btn{
+    width: 200px;
+    margin-left: 173.5px;
+    padding: 10px 0;
+    border: 1px solid white;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    transition: all 0.3s;   
+}
+.header__login-btn:hover{
+    background-color: blue;
+    border-color: blue;
+}
+.hero__txt-wrapper{
+    margin: 0 auto;
+    margin-bottom: 35px;
+    text-align: center;
+    color: white;
+}
+.hero__txt-wrapper h1{
+    width: 729px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-family: 'Graphik' , sans-serif;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 88px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+}
+.hero__txt-wrapper p{
+    width: 582px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    font-family: 'Graphik' , sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+}
+.hero__btn-wrapper{
+    margin: 0 auto;
+    text-align: center;
+}
+.try__btn{
+    padding: 20px 40px;
+    margin-right: 35px;
+    font-family: 'Graphik' , sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0.20000000298023224px;
+    background-color: #181818;
+    color: white;
+    transition: all 0.3s;
+    border-color: white;
+}
+.try__btn:hover{
+    background-color: blue;
+    border-color: blue;
+}
+.learn__btn{
+    padding: 20px 40px;
+    font-family: 'Graphik' , sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0.20000000298023224px;
+    background-color: #181818;
+    color: white;
+    transition: all 0.3s;
+    border-color: white;
+}
+.learn__btn:hover{
+    background-color: blue;
+    border-color: blue;
+}
+.hero__img-wrapper {
+    max-width: 100%;
+    display: flex;
+    justify-content: center; 
+}
+.hero__img-wrapper img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
